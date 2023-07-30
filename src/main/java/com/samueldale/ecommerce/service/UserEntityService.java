@@ -4,6 +4,7 @@ import com.samueldale.ecommerce.exception.UserNotFoundException;
 import com.samueldale.ecommerce.model.UserEntity;
 import com.samueldale.ecommerce.repository.UserEntityRepository;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.core.userdetails.User;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.crypto.password.PasswordEncoder;
